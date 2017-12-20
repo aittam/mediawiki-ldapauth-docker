@@ -1,6 +1,6 @@
 FROM mediawiki:lts
 
-LABEL maintainer="sysadmins@m-iti.org"
+LABEL maintainer="sysadmins@m-iti.org" description="Mediawiki + LdapAuthentication extension"
 
 # Install php-ldap extension
 RUN apt-get update && \
