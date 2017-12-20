@@ -1,5 +1,7 @@
 FROM mediawiki:lts
 
+LABEL maintainer="sysadmins@m-iti.org"
+
 # Install php-ldap extension
 RUN apt-get update && \
     apt-get install libldap2-dev -y && \
